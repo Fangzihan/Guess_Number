@@ -1,3 +1,4 @@
+//UTF-8
 package guess_number1;
 import java.util.Scanner;
 import java.util.Random;
@@ -5,20 +6,20 @@ public class game {
 	public static void main(String[] args) {
 		Scanner in=new Scanner(System.in);
 		Random sj=new Random();
-                System.out.println("±¾³ÌĞò¿ªÔ´£¬³ÌĞòÔ´´úÂëÇëµ½github.com/fangzihan²é¿´\n");
+                System.out.println("æœ¬ç¨‹åºå¼€æºï¼Œç¨‹åºæºä»£ç è¯·åˆ°github.com/fangzihanæŸ¥çœ‹\n");
                 System.out.println("---------------------------------");
-                System.out.println("²ÂÊıÓÎÏ·1.0 build8166    by·½×Óº®");
+                System.out.println("çŒœæ•°æ¸¸æˆ1.0 build8166    byæ–¹å­å¯’");
                 System.out.println("---------------------------------");
-		System.out.println("¡ñÄúºÃ£¬ÇëÊäÈëÄúµÄĞÕÃû£º\n");
+		System.out.println("â—æ‚¨å¥½ï¼Œè¯·è¾“å…¥æ‚¨çš„å§“åï¼š\n");
 		String name=in.next();
-		System.out.println("\n¡ñºÃµÄ"+name+",»¶Ó­Ê¹ÓÃÓÉ·½×Óº®¿ª·¢µÄ#²ÂÊıÓÎÏ·#,\n\nÏëÒªÁË½âÓÎÏ·Íæ·¨ÇëÊäÈë1£¬¿ªÊ¼ÓÎÏ·ÇëÊäÈë2,ÍË³öÓÎÏ·ÇëÊäÈë3£º\n");
+		System.out.println("\nâ—å¥½çš„"+name+",æ¬¢è¿ä½¿ç”¨ç”±æ–¹å­å¯’å¼€å‘çš„#çŒœæ•°æ¸¸æˆ#,\n\næƒ³è¦äº†è§£æ¸¸æˆç©æ³•è¯·è¾“å…¥1ï¼Œå¼€å§‹æ¸¸æˆè¯·è¾“å…¥2,é€€å‡ºæ¸¸æˆè¯·è¾“å…¥3ï¼š\n");
 		String putIn=in.next();
 		if (putIn.equals("3")) {
 			System.exit(0);
                 }
                 if(putIn.equals("1")) {
-                        System.out.println("\n¡ñÓÎÏ·»áÒªÇóÄúÊäÈëÁ½¸ö0-10ÖĞµÄÕûÊı£¬ÏµÍ³Ò²»áËæ»úÉú³ÉÁ½¸öÊı\nÈç¹ûÄãÊäÈëµÄÊıÓëÏµÍ³Éú³ÉµÄÊıÏàÍ¬£¬¹§Ï²ÄãÖĞ½±À²£¡\n");
-                        System.out.println("¡ñÊäÈë1¿ªÊ¼ÓÎÏ·£º\n");
+                        System.out.println("\nâ—æ¸¸æˆä¼šè¦æ±‚æ‚¨è¾“å…¥ä¸¤ä¸ª0-10ä¸­çš„æ•´æ•°ï¼Œç³»ç»Ÿä¹Ÿä¼šéšæœºç”Ÿæˆä¸¤ä¸ªæ•°\nå¦‚æœä½ è¾“å…¥çš„æ•°ä¸ç³»ç»Ÿç”Ÿæˆçš„æ•°ç›¸åŒï¼Œæ­å–œä½ ä¸­å¥–å•¦ï¼\n");
+                        System.out.println("â—è¾“å…¥1å¼€å§‹æ¸¸æˆï¼š\n");
                         String a1=in.next();
                         putIn="2";
 		}
@@ -29,15 +30,15 @@ public class game {
                         String back;
 			do{
                         re=0;
-                        System.out.println("\n¡ñÇëÊäÈëµÚ1¸öÕûÊı£¨0-10£©\n");
+                        System.out.println("\nâ—è¯·è¾“å…¥ç¬¬1ä¸ªæ•´æ•°ï¼ˆ0-10ï¼‰\n");
 			int in1=in.nextInt();
-			System.out.println("\n¡ñÇëÊäÈëµÚ2¸öÕûÊı£¨0-10£©\n");
+			System.out.println("\nâ—è¯·è¾“å…¥ç¬¬2ä¸ªæ•´æ•°ï¼ˆ0-10ï¼‰\n");
 			int in2=in.nextInt();
-			System.out.println("\n¡ñÇëÈ·ÈÏÊı×ÖÊäÈëÎŞÎó£¬È·ÈÏÎŞÎóºóÊäÈë1\n");
-                        System.out.println("µÚÒ»¸öÊı×Ö"+in1+",µÚ¶ş¸öÊı×Ö"+in2+"\n");
+			System.out.println("\nâ—è¯·ç¡®è®¤æ•°å­—è¾“å…¥æ— è¯¯ï¼Œç¡®è®¤æ— è¯¯åè¾“å…¥1\n");
+                        System.out.println("ç¬¬ä¸€ä¸ªæ•°å­—"+in1+",ç¬¬äºŒä¸ªæ•°å­—"+in2+"\n");
 			String b=in.next();
                         if(in1==in2) {
-                        System.out.println("\n¡ñÊäÈëµÄÁ½Êı²»ÄÜÏàÍ¬£¬ÊäÈë1ÍË³öÓÎÏ·\n");
+                        System.out.println("\nâ—è¾“å…¥çš„ä¸¤æ•°ä¸èƒ½ç›¸åŒï¼Œè¾“å…¥1é€€å‡ºæ¸¸æˆ\n");
                         String c1=in.next();
                         System.exit(0);
                         }
@@ -46,7 +47,7 @@ public class game {
                     num1=sj.nextInt(11);
                     num2=sj.nextInt(11);
                     }while(num1==num2);
-                    System.out.println("\n¡ñÖĞ½±ÊıÉú³ÉÍê±Ï£¬ËüÃÇÊÇ£º"+num1+","+num2+"\n");
+                    System.out.println("\nâ—ä¸­å¥–æ•°ç”Ÿæˆå®Œæ¯•ï¼Œå®ƒä»¬æ˜¯ï¼š"+num1+","+num2+"\n");
                     int score=0;
                     if((in1==num1)||(in1==num2)) {
                     score=score+1;
@@ -55,7 +56,7 @@ public class game {
                     score=score+1;
                     }
                     if(score==0) {
-                    System.out.println("(?_?)·Ç³£ÒÅº¶,Äã²Â¶Ô0¸öÊı×Ö£¬ÊäÈë1ÍË³öÓÎÏ·\nÊäÈë2ÖØĞÂÓÎÏ·\n");
+                    System.out.println("(?_?)éå¸¸é—æ†¾,ä½ çŒœå¯¹0ä¸ªæ•°å­—ï¼Œè¾“å…¥1é€€å‡ºæ¸¸æˆ\nè¾“å…¥2é‡æ–°æ¸¸æˆ\n");
                     back=in.next();
                     if(back.equals("1")) {
                     System.exit(0);
@@ -65,7 +66,7 @@ public class game {
                     continue;
                     }
                     }else if(score==1) {
-                    System.out.println("(^.^)¹§Ï²Äã£¬²Â¶Ô1¸öÊı×Ö£¡ÊäÈë1ÍË³öÓÎÏ·\nÊäÈë2ÖØĞÂÓÎÏ·\n");
+                    System.out.println("(^.^)æ­å–œä½ ï¼ŒçŒœå¯¹1ä¸ªæ•°å­—ï¼è¾“å…¥1é€€å‡ºæ¸¸æˆ\nè¾“å…¥2é‡æ–°æ¸¸æˆ\n");
                     back=in.next();
                     if(back.equals("1")) {
                     System.exit(0);
@@ -75,7 +76,7 @@ public class game {
                     continue;
                     }
                     }else if(score==2) {
-                    System.out.println("¨I(^¦Ø^)¨JÏ²´óÆÕ±¼£¬²Â¶Ô2¸öÊı×Ö£¡ÊäÈë1ÍË³öÓÎÏ·\nÊäÈë2ÖØĞÂÓÎÏ·\n");
+                    System.out.println("â†–(^Ï‰^)â†—å–œå¤§æ™®å¥”ï¼ŒçŒœå¯¹2ä¸ªæ•°å­—ï¼è¾“å…¥1é€€å‡ºæ¸¸æˆ\nè¾“å…¥2é‡æ–°æ¸¸æˆ\n");
                     back=in.next();
                     if(back.equals("1")) {
                     System.exit(0);
